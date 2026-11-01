@@ -1,0 +1,34 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+/test-results
+
+# Next.js build output
+/.next/
+/out/
+
+# Production build artifacts
+build
+
+# ScopeCAD large original binaries & extractions (100MB+ installers)
+*.msi
+ScopeCADUpdater/
+extracted/
+.playwright-mcp/
+
+# Debug and Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+.env*.local
+
+# OS Files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Roboto:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cei-orange: #DD8427;
+  --color-cei-orange-hover: #C7731E;
+  --color-cei-orange-light: #FFF7ED;
+  --color-cei-slate-900: #0A1128;
+  --color-cei-slate-800: #111827;
+  --color-cei-slate-700: #212529;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0A1128;
+  color: #F8FAFC;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow: hidden;
+  user-select: none;
+}
+
+/* Custom CAD Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DD8427;
+}
+
+/* Crosshair for Canvas Workspace */
+.cad-crosshair {
+  cursor: crosshair;
+}
+.cad-grab {
+  cursor: grab;
+}
+.cad-grabbing {
+  cursor: grabbing;
+}
+
